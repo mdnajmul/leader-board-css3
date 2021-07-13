@@ -22,6 +22,10 @@ main {
 
 }
 
+.mb-30 {
+    margin-bottom: 30px;
+}
+
 
 /* top players style */
 
@@ -104,4 +108,48 @@ main {
     margin-top: -5px;
     color: #562EFF;
     font-size: 24px;
+}
+
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+
+.courses .course-details img {
+    width: 224px;
+    height: 104px;
+}
+
+.course-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.filled {
+    color: #FFC014;
+}
+
+.empty {
+    color: #AEAEAE;
+}
+
+.ratting span {
+    margin-left: 10px;
+}
+
+.course-details {
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px 10px rgb(235, 230, 230);
+    padding: 10px;
+}
+
+.course-details p {
+    margin-top: -8px;
+}
+
+.course-details p a {
+    text-decoration: none;
+    font-size: 14px;
 }

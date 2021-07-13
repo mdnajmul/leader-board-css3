@@ -26,6 +26,38 @@ main {
     margin-bottom: 30px;
 }
 
+/* navigation section styles */
+
+.nav-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head-section {
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+}
+
+.head-section .menu li {
+    list-style: none;
+}
+
+.head-section .menu li a {
+    text-decoration: none;
+}
+
+.logo img {
+    width: 40.42px;
+    height: 51px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 10px;
+}
 
 /* top players style */
 
